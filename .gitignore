@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Production builds
+dist/
+build/
+.output/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Local database
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Storage directories (large media assets, temporary renders)
+storage/projects/
+storage/temp/
+storage/cache/
+**/storage/projects/**
+**/storage/temp/**
+**/storage/cache/**
+backend/storage/projects/
+backend/storage/temp/
+backend/storage/cache/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS and Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
